@@ -1,28 +1,8 @@
 # coding: UTF-8
-from com import chrome
-from selenium import webdriver as web
-from selenium.webdriver.common.by import By
+
 import time
 
-# driver = web.Chrome()
-# c = chrome.Driver()
-
-# def search():
-#     # 调用方法打开chrome
-#     c.open_browser()
-#     time.sleep(1)
-#     # 在搜索栏输入搜索内容
-#     c.browser.find_element(By.ID,'kw').send_keys('海贼王')
-#     time.sleep(1)
-#     # 点击搜索
-#     c.browser.find_element(By.ID,'su').click()
-#     time.sleep(3)
-#     # 点击查询结果的第一个s
-#     c.browser.find_element(By.XPATH,'//*[@id="1"]/h3').click()
-#     time.sleep(3)
-#     c.close_browser()
-# search()
-
+# 字符串包含筛选（直接move会报错-超出范围-因为for循环的长度变更）
 # filterlist = ['[MAX]', '[MIN]', '[max]', '[min]']
 # cols = ['WTUR_Temp_Ra_F32_TowerBase[MAX]', 'WGEN_Temp_Ra_F32_4[AVG]', 'WTPS_Temp_Ra_F32_Pcap3[MAX]', 'WTPS_Temp_Ra_F32_gen3[MIN]',
 #         'WGEN_Temp_Ra_F32_1[MAX]', 'WNAC_Temp_Ra_F32[MIN]', 'WYAW_CTim_Rt_F32_Ygen[min]', 'WGEN_Spd_Ra_F32_overspblade1[AVG]']
