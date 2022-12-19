@@ -14,8 +14,6 @@ from selenium.webdriver.common.by import By
 #     file = open(full_path, 'w')
 #     file.write(msg)  # msg也就是下面的Hello world!
 #     # file.close()
-#
-#
 # text_create('九星毒奶', '他来了！他来了！他带着一阵风来了！')
 # 调用函数创建一个名为mytxtfile的.txt文件，并向其写入Hello world!
 
